@@ -61,7 +61,7 @@ public class ArticleService {
 		
 		Article article = articleRepository.getForPrintArticle(id);
 		
-		actorCanChangeData(loginedMemberId, article);
+//		actorCanChangeData(loginedMemberId, article);
 		
 		return article;
 	}
